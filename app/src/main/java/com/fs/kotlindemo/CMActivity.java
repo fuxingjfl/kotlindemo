@@ -12,7 +12,7 @@ import android.widget.RelativeLayout;
 /**
  * Created by Administrator on 2018/7/3.
  */
-
+//测试
 public class CMActivity extends Activity {
 
     private MyLayout myLayout;
