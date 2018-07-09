@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+
+    <!--<com.fs.kotlindemo.DogView_SRCOUT
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />-->
+
+
+    <!--<com.fs.kotlindemo.XfermodeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <!--<com.fs.kotlindemo.SaveLayerAlphaView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--<com.fs.kotlindemo.MATRIX_SAVE_FLAG_View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--<com.fs.kotlindemo.ExtractAlphaView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <!--<com.fs.kotlindemo.TelescopeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--<com.fs.kotlindemo.RippleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+    <!--<com.fs.kotlindemo.RedPointView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+
+    <com.fs.kotlindemo.CircleWave_DSTIN
+        android:id="@+id/cw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.fs.kotlindemo.CircleWave_DSTIN>
+    <com.fs.kotlindemo.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.fs.kotlindemo.MyTextView>
+
+
+
+
+</LinearLayout>

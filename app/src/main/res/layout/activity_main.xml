@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.fs.kotlindemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+
+    <EditText
+        android:id="@+id/et_sr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="输入文本"/>
+
+    <com.fs.kotlindemo.BitmapShaderView
+        android:id="@+id/bsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.fs.kotlindemo.RectangleImageView
+        android:id="@+id/riv"
+        android:layout_below="@+id/bsv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+</RelativeLayout>
